@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# MET/CAL Solution File
+Project("{0A95F279-908B-4153-BB12-D9936C7938D9}") = "HP-5385A-Calibration", "HP-5385A-Calibration\HP-5385A-Calibration.mcproj", "{FB378D14-F2C1-4879-AE76-68BF8F52BED4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB378D14-F2C1-4879-AE76-68BF8F52BED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB378D14-F2C1-4879-AE76-68BF8F52BED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

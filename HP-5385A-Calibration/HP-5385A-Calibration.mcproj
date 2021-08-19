@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>fb378d14-f2c1-4879-ae76-68bf8f52bed4</ProjectGuid>
+    <RootNamespace>HP_5385A_Calibration</RootNamespace>
+    <AssemblyName>HP-5385A-Calibration</AssemblyName>
+    <Name>HP-5385A-Calibration</Name>
+    <InstrumentLine1>HP 5385A Frequency Counter Calibration</InstrumentLine1>
+    <PublishFileName>HP-5385A-Calibration</PublishFileName>
+    <PackageDate>2021-08-19</PackageDate>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="main.mc">
+      <MainProcedure>True</MainProcedure>
+      <SectionedProcedure>True</SectionedProcedure>
+    </Compile>
+    <Compile Include="Sub Check Reading Exists.mc">
+      <MainProcedure>False</MainProcedure>
+      <SectionedProcedure>False</SectionedProcedure>
+    </Compile>
+    <Compile Include="Sub Preamble.mc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="spec.xlsx" />
+  </ItemGroup>
+</Project>

@@ -53,7 +53,7 @@ NUMBER OF LINES:       111
 # with IF ELSEIF ENDIF statements.
 
 # IN SHORT: Use MEAS = SA if DUT is stimulus instrument. Use MEAS = UI if DUT is indicator.
-  1.006  VSET         MEAS = SA
+  1.006  VSET         MEAS = UI
 
 # IN SHORT: TOL must be specified explicitly to get enough required decimal places. Using variables is
 # NOT RECOMMENDED!
